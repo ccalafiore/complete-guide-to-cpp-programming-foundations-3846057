@@ -11,3 +11,5 @@ x32
 *.vcxproj
 *.filters
 *.user
+*.obj
+*.exe
