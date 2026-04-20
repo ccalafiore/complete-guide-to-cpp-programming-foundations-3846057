@@ -4,3 +4,10 @@ node_modules
 npm-debug.log
 
 .vs
+x64
+x32
+
+*.sln
+*.vcxproj
+*.filters
+*.user
