@@ -6,7 +6,6 @@
 #include <cstdint>
 
 #define MAX_AMMO 150;
-
 #define DEBUG
 
 int main(){
