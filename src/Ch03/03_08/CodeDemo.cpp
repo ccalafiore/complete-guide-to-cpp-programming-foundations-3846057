@@ -9,6 +9,8 @@ double my_average(int a, int8_t b, uint32_t c){
     double result = 0.0;
 
     // Write your code here
+    const int n = 3;
+    result = (double) (a + b + c) / (double) n ;
     
     return result;
 }
