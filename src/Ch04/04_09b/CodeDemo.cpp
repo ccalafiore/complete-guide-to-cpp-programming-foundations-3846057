@@ -22,7 +22,7 @@ int main(){
 
     strncat(raceResult, racer1, sizeof(raceResult) - strlen(racer1) - 1);
 
-    std::cout << raceResult << strlen(racer1) << std::endl;
+    std::cout << raceResult << std::endl;
 
 
     std::cout << std::endl << std::endl;
