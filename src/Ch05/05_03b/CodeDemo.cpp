@@ -10,12 +10,31 @@ int main(){
 
     std::cout << "Enter operand 1: " << std::flush;
     std::cin >> operand_1;
-    std::cout << "Enter operand 2: " << std::flush;
-    std::cin >> operand_2;
+    
     std::cout << "Choose operation [ + - * / ]: " << std::flush;
     std::cin >> operation;
+    
+    std::cout << "Enter operand 2: " << std::flush;
+    std::cin >> operand_2;
+
 
     // switch goes here
+    switch (operation){
+        case '+':
+            result = operand_1 + operand_2;
+            break;
+        case '-':
+            result = operand_1 - operand_2;
+            break;
+        case '*':
+            result = operand_1 * operand_2;
+            break;
+        case '/':
+            result = operand_1 / operand_2;
+            break;
+        default:
+            result = 25;
+    }
 
     std::cout << "The result is " << result << std::endl;
     
