@@ -14,10 +14,7 @@ void displayScore(const std::string&, int);
 int main(){
     std::string playerName = getPlayerName();
     int score = calculateScore(75, 2);
-
     displayScore(playerName, score);
-    
-    
     std::cout << std::endl << std::endl;
     return 0;
 }
