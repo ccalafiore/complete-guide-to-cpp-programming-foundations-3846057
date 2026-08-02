@@ -40,9 +40,9 @@ public:
     }
 
     // Display inventory contents
-    void displayInventory() {
-        std::cout "Inventory: [ ";
-        for (size_t i = 0; i < items->size(); i++) {
+    void displayInventory() const {
+        std::cout << "Inventory: [ ";
+        for (size_t i = 0; i < items->size(); ++i) {
             std::cout << (*items)[i];
             if (i < items->size() - 1) std::cout << ", ";
         }
